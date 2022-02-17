@@ -2,12 +2,12 @@
 - hosts: all
   become: yes
   tasks:
-  - name: i want to install git
+  - name: i want to install git now
     apt:
       name: git
       state: present
 
-  - name: i want to install ubuntu
+  - name: i want to install ubuntu machine
     apt:
       name: ubuntu
       state: present
