@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+   - name: "{{item}}}"
+     state: present
+
+      loops: 
+        - git
+        - tree
+        - wget
+
