@@ -1,0 +1,15 @@
+[mywebservers]
+172.31.30.172
+172.31.14.237
+
+
+[myapplicationservers]
+172.31.30.172
+172.31.14.237
+ 
+ [myRedHatserver]
+ 172.31.14.237
+   
+ [mynodeserver] 
+ 172.31.30.172
+  
