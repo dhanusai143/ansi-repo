@@ -7,7 +7,7 @@
       name: git
       state: present
   when: ansible_os_family=="*Debian*"
-  - name: i want to install ubuntu machine
+  - name: i want to install RedHat machine
     apt:
       name: ubuntu
       state: present
