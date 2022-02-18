@@ -6,8 +6,9 @@
     apt:
       name: git
       state: present
-
+  when: ansible_os_family=="*Debian*"
   - name: i want to install ubuntu machine
     apt:
       name: ubuntu
       state: present
+  when: ansible_os_family=="*Debian*"
