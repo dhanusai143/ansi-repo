@@ -1,0 +1,9 @@
+[mywebservers]
+ - 172.31.30.172
+
+ [myapplicqtionservers]
+ - 172.31.30.172
+
+ [myubuntuserver]
+  - 172.31.30.172
+  
