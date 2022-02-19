@@ -1,0 +1,20 @@
+---
+- hosts: 172.31.30.172
+  become: yes
+  tasks:
+  - name: git
+    apt: 
+      name: git
+      stateeee: present
+
+    ignore_errors: yes  
+
+  - name: tree
+    apt:
+      name: tree
+      apt: present
+
+  - name: wget
+    apt: 
+      name: wget
+      state: present    
