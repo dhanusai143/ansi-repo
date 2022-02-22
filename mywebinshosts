@@ -1,0 +1,10 @@
+[mywebserverins]
+172.31.30.172
+172.31.14.237
+
+[myamazonlinuxins] 
+172.31.14.237
+
+[webserverubuntuins]
+172.31.30.172
+  
